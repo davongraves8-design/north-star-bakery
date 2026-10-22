@@ -227,3 +227,18 @@ footer {
     padding: 2rem 6%;
   }
 }
+
+/* Touchstone 4 interactive states and accessible feedback. */
+button[aria-pressed="true"] { background: #674013; }
+.favorites-panel { background: var(--soft-gold); }
+.field-error { color: #9e2424; font-size: .95rem; margin: .3rem 0 0; }
+.field-error:empty { display: none; }
+[aria-invalid="true"] { border: 2px solid #9e2424; }
+#form-result:not(:empty) { margin-top: 1rem; padding: 1rem; background: var(--cream); border-left: 4px solid var(--brown); }
+:focus-visible { outline: 3px solid #7c4d18; outline-offset: 3px; }
+.contact-layout > *, .split > * { min-width: 0; }
+@media (max-width: 720px) {
+  .contact-layout > *, .split > * { width: 100%; flex-basis: auto; }
+}
+.hero > * { min-width: 0; }
+.hero img { width: 100%; height: auto; }
