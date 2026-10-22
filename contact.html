@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact North Star Bakery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="logo" href="index.html">North Star Bakery</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <p class="eyebrow">Get in touch</p>
+      <h1>Request a cake, ask a question, or plan a pickup.</h1>
+      <p>Use the form below to contact North Star Bakery about custom cakes, pickup orders, or general questions.</p>
+    </section>
+
+    <section class="section contact-layout">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Order Request</legend>
+
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="pickup-date">Preferred Pickup Date</label>
+          <input type="date" id="pickup-date" name="pickup-date">
+
+          <label for="message">How can we help?</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Request</button>
+        </fieldset>
+      </form>
+
+      <aside class="contact-card">
+        <h2>Bakery Hours</h2>
+        <p>Monday through Saturday<br>7:00 AM to 5:00 PM</p>
+        <h2>Location</h2>
+        <p>Serving local customers with fresh pickup orders and custom desserts.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 North Star Bakery. Fresh treats made for everyday moments.</p>
+  </footer>
+</body>
+</html>
